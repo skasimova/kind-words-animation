@@ -1,0 +1,68 @@
+h1 {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffe4c4;
+  text-shadow: 4px 2px #ff7f50;
+}
+
+h2 {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #ffe4c4;
+}
+
+.main_text span {
+  position: relative;
+  animation: bounce 1.7s infinite;
+}
+
+.main_text span:nth-child(1n) {
+  animation-delay: 0.3s;
+}
+
+.main_text span:nth-child(3n) {
+  animation-delay: 0.7s;
+}
+
+.main_text span:nth-child(5n) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -5px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+form {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 40px;
+  text-align: center;
+  color: #ff7f50;
+}
+
+.submitbutton {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 20px;
+  color: #ff7f50;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+.entrybox {
+  width: 15%;
+  height: 35px;
+  text-align: center;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: #f5f5dc;
+}
