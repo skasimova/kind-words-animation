@@ -1,20 +1,25 @@
 body {
   background-color: rgba(246, 237, 255, 0.16);
+  font-size: 25px;
 }
 h1 {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   text-transform: uppercase;
   color: #ffe4c4;
   text-shadow: 4px 2px #ff7f50;
+
+  @media (min-width: 575px) {
+    font-size: 50px;
+  }
 }
 
 h2 {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 40px;
   text-align: center;
   color: #ffe4c4;
+  font-size: 30px;
 }
 
 .main_text span {
@@ -48,7 +53,6 @@ h2 {
 
 form {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 40px;
   text-align: center;
   color: #ff7f50;
 }
@@ -59,10 +63,12 @@ form {
   color: #ff7f50;
   border: 0.5px solid #dcdcdc;
   border-radius: 4px;
+  width: 69px;
 }
 
 .entrybox {
-  width: 15%;
+  width: 150px;
+  margin: 10px;
   height: 35px;
   text-align: center;
   border: 0.5px solid #dcdcdc;
@@ -71,5 +77,6 @@ form {
 }
 
 .returnbutton {
-  text-align: center;
+  margin: 0 auto;
+  width: 69px;
 }
